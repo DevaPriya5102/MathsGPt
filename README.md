@@ -47,9 +47,4 @@ The application's workflow is as follows:
 
 5. **Response Display:** The agent's response is displayed in the Streamlit chat interface. The `StreamlitCallbackHandler` allows you to see the agent's thought process (which tool it chose, etc.) in the Streamlit interface, which is valuable for debugging and understanding how the agent is working.
 
-## How to Run
 
-1. **Clone the Repository:**
-   ```bash
-   git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://www.google.com/search?q=https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git) # Replace with your repo URL
-   cd YOUR_REPO_NAME
