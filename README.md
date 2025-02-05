@@ -15,7 +15,6 @@ This Streamlit application provides a chatbot interface capable of solving mathe
     * `langchain.agents`: Used for creating agents that can use tools.
 * **Groq LLM (`deepseek-r1-distill-llama-70b`):** The LLM used for text processing, reasoning, and generating responses.
 * **Wikipedia API:** Used for searching and retrieving information from Wikipedia.
-* **`dotenv`:** For loading environment variables from a `.env` file (recommended for managing API keys). *(While not directly used in the provided code, it's highly recommended for security best practices)*
 * **`StreamlitCallbackHandler`:** Used to display the LLM's thought process within the Streamlit application.
 
 ## Description
