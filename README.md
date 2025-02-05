@@ -1,4 +1,4 @@
-# Text to Math Solver and Data Search Assistant
+# Text to Math Solver using DeepSeek
 
 This Streamlit application provides a chatbot interface capable of solving mathematical problems, answering reasoning-based questions, and searching Wikipedia for information. It leverages the power of Large Language Models (LLMs) and specialized tools to provide comprehensive and informative responses.
 
@@ -24,8 +24,6 @@ This application combines the reasoning capabilities of LLMs with the precision 
 1. **Mathematical Problems:** Users can input mathematical questions or expressions, and the application will use the `LLMMathChain` (powered by the Groq LLM) to calculate and provide the answer.  It understands and responds to mathematical expressions.
 
 2. **Reasoning-Based Questions:**  For questions requiring logical reasoning or problem-solving, the application uses a custom prompt template and the Groq LLM to generate a step-by-step explanation.  This allows the chatbot to explain its reasoning process.
-
-3. **Wikipedia Searches:** The application can search Wikipedia for information on a wide range of topics, providing concise summaries or relevant details. This provides general knowledge access to the chatbot.
 
 ## Process and Output
 
