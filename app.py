@@ -9,7 +9,7 @@ from langchain.agents import Tool, initialize_agent
 from dotenv import load_dotenv
 from langchain.callbacks import StreamlitCallbackHandler
 
-## set up app
+#### set up app
 
 st.set_page_config(page_title="Text to Math Solver and Data search assistant")
 st.title("Text to Math Problem Solver using Gemma")
