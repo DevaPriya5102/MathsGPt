@@ -12,7 +12,6 @@ from langchain.callbacks import StreamlitCallbackHandler
 ## set up streamlit app
 
 st.set_page_config(page_title="Text to Math Solver and Data search assistant")
-st.title("Text to Math Problem Solver using Gemma")
 
 groq_api_key = st.sidebar.text_input(label="groq api key",type ="password")
 
